@@ -1,0 +1,135 @@
+body{
+  background-color: #a5a99b !important;
+  color: white !important;
+  font-family: 'Quicksand', sans-serif !important;
+}  
+#remonteMenu{
+  z-index: 99;
+  position : fixed;
+  bottom: 100px;
+  right: 20px;
+}
+
+
+#image-container{
+  background-image: url('../images/imagepresentation.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+}
+.row-text{
+  margin-bottom: 75px;
+  color: white;
+}
+.card-body{
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.projet .card-body{
+  border-bottom: none;
+
+}
+.card{
+  border: none !important;
+  background: none !important;
+}
+h4{
+  padding: 2em;
+}
+#titre{
+  font-family: 'Amatic SC', cursive;
+  font-size: 100%;
+}
+#description{
+  font-family: 'Quicksand', sans-serif;
+}
+nav li{
+  font-size: 1.2em;
+}
+nav li:hover{
+  padding-top: 10px;
+  background-color: rgba(0,0, 0, 0.1);
+  font-size: 1.3em !important;
+
+}
+#menuFooter{
+  background-color: #343a40;
+  margin-top: 50px;
+}
+#menuFooter a{
+  font-size: 0.8em;
+  color : grey !important;
+}
+#menuFooter a:hover{
+  color:#92f595 !important;
+}
+#menuFooter nav li:hover{
+  padding-top: 0;
+  background-color: rgba(0,0, 0, 0);
+  font-size: 1.2em !important;
+}
+#mentionLegal{
+  font-size: 0.6em;
+  color:grey;
+}
+#hamburger{
+  background: none !important;
+  border: none !important;
+}
+.pluginMeteo h1{
+  line-height: 2.2 !important;
+}
+.meteo{
+  color:#777777;
+}
+.pluginMeteo .condition , .pluginMeteo .temperature-actuelle{
+  color:#777777;
+}
+.ldBar{
+  display: block;
+}
+.ldBar-label {
+    display:none;
+}
+.barre-progres{
+  display: flex;
+}
+.logiciels{
+  display: flex;
+  height: 40px;
+  
+}
+.logiciels p{
+  margin: auto;
+}
+#logoLogiciels{
+  display: flex;
+  justify-content: center;
+  
+}
+#mon-parcours{
+  text-align: center;
+  margin-top: 100px;
+}
+#contactSociaux{
+background-color:#92f595;
+border-radius: 20px;
+}
+#contacts{
+  margin-top: 10px;
+}
+.card a,button a{
+  color: white;
+}
+.card a:hover,button a:hover{
+  color:#b6f5cf;
+  text-decoration: none;
+}
+#cookies{
+  z-index: 999;
+  padding-bottom: 30px;
+  background-color: #777777;
+  color: #a5a99b; 
+  
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="portfolio PKDB" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="js/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Lobster|Quicksand|Shadows+Into+Light" rel="stylesheet">
+    <script src="js/mon_plugin_meteo.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <script type="text/javascript" src="js/loading-bar.js"></script>
+    <title>Portfolio projet canvas</title>
+</head>
+
+<body>
+    <header>
+        <div class="row align-items-center justify-content-center">
+            <div class="justify-content-center">
+                <button id="hamburger" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    <img src="images/menu-hamburger.png" alt="menu-hamburger">
+                </button>
+            </div>
+            <div class="w-100"></div>
+            <div id="collapseMenu">
+                <div>
+                    <ul class="navbar-nav" id="menu-principal">
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" href="index.html#galerie">Galerie</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" href="index.html#competences">Mes compétences</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" href="index.html#curriculum">Mon curriculum vitae</a>
+                        </li>
+                        <li class="nav-item text-center">
+                            <a class="nav-link text-white" href="index.html#contacts">Contactez-moi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="menuPrincipal">
+            <nav class="navbar navbar-expand-sm justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#galerie">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#competences">Mes compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#curriculum">Mon curriculum vitae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html#contacts">Contactez-moi</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="remonteMenu"><a href="#haut"><img src="images/chevron.png"></a></div>
+    </header>
+    <section id="projet">
+        <div class="col-12 justify-content-center">
+
+            <div class="row justify-content-center">
+                <h4>CANVAS ET DÉPLACEMENTS DE BALLES</h4>
+            </div>
+            <div class="row justify-content-center projet">
+                <div class="col-11" style="background-color: dimgrey; padding: 20px;">
+                    <div class="row justify-content-center">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-12 ">
+
+                            
+                                <canvas id="myCanvas" width="500" height="500" style="width: 100%">
+                                    Votre navigateur ne peut pas lire l'animation.
+                                </canvas>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <p><center>Création dynamique de balles qui se déplacent aléatoirement et rebondissent lorsqu'elles touchent les bords.</center></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button class="btn btn-dark" style="margin: 20px 20px;"><a href="index.html#galerie">Retour aux projets</a></button>
+        </div>
+
+
+    </section>
+    <footer>
+            <div id="menuFooter">
+                    <nav class="navbar navbar-expand-sm justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html"><center>Accueil</center></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html#galerie"><center>Galerie</center></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html#competences"><center>Mes compétences</center></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html#curriculum"><center>Mon curriculum vitae</center></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="index.html#contacts"><center>Contactez-moi</center></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="row justify-content-center ">
+                            
+                                <p id="mentionLegal" >Site réalisé par Alexandra Hilary - <a href="mentionlegal.html">Mentions légales - 2018</a> - 2018</p>
+                            
+                        </div>
+                </div>
+    </footer>
+
+    <script>
+        var boutonMenu = document.getElementById('hamburger');
+        var afficheMenu = document.getElementById('collapseMenu');
+        var menuPrincipal = document.getElementById('menuPrincipal');
+
+        var fenetre = window.innerWidth;
+        if (fenetre < 900) {
+            menuPrincipal.setAttribute('style', 'display:none');
+
+
+
+        }
+        if (fenetre > 900) {
+            boutonMenu.setAttribute('style', 'display:none');
+
+        }
+
+        window.onresize = function () {
+            var tailleFenetre = window.innerWidth;
+            if (tailleFenetre < 900) {
+                menuPrincipal.setAttribute('style', 'display:none');
+                boutonMenu.setAttribute('style', 'display:block');
+
+
+            }
+            if (tailleFenetre > 900) {
+                boutonMenu.setAttribute('style', 'display:none');
+                menuPrincipal.setAttribute('style', 'display:block');
+
+
+            }
+        }
+
+        afficheMenu.setAttribute('style', 'display:none');
+        boutonMenu.onclick = function () {
+            if (afficheMenu.style.display === "none") {
+                afficheMenu.style.display = "block";
+            } else {
+                afficheMenu.style.display = "none";
+            }
+        }
+        var theCanvas = document.getElementById('myCanvas');
+		var context = theCanvas.getContext('2d');
+
+
+
+
+		
+		var angle = Math.floor(Math.random() * 360);
+		var radian = angle * Math.PI / 180;
+		
+		var x = Math.random() * 200, y = Math.random() * 200;
+		var color = ["white", "yellow", "pink", "green"];
+		var balls = [];
+
+		function bg() {
+			context.fillStyle = "black";
+			context.fillRect(0, 0, 500, 500);
+		}
+		function createBalls() {
+			var nbBalle = 100; 
+			for (var i = 0; i <= nbBalle; i++)
+				balls.push({	
+				x: Math.floor(Math.random() * 500),
+				y: Math.floor(Math.random() * 500),
+				color: color[Math.floor(Math.random() * color.length)],
+				velocityX: Math.cos(radian) * Math.floor(Math.random()*10),
+				velocityY: Math.sin(radian) * Math.floor(Math.random()*10),
+				radius: Math.floor(Math.random() * 30)
+			});
+				console.log(balls);
+		}
+		function dessineMoi(x, y, color, radius) {
+			context.beginPath();
+			context.fillStyle = color;
+			context.arc(x, y, radius, 0, 2 * Math.PI);
+			context.fill();
+			context.closePath();
+		}
+		function dessineBalles() {
+			balls.map(function (ball) {
+				dessineMoi(ball.x, ball.y, ball.color, ball.radius);
+
+			});
+		}
+		function deplaceBalles() {
+			var i;
+			for (i = 0; i < balls.length; i++) {
+				var ball = balls[i];
+				deplaceBalle(ball);
+
+			};
+
+		}
+		function deplaceBalle(ball) {
+			ball.x += ball.velocityX;
+			ball.y += ball.velocityY;
+			if (ball.x + ball.radius > theCanvas.width || ball.x < ball.radius) {
+				ball.velocityX *= -1;
+			}
+			if (ball.y + ball.radius > theCanvas.height || ball.y < ball.radius) {
+				ball.velocityY *= -1;
+			}
+
+		}
+		function interFrame() {
+			bg();
+			dessineBalles();
+			deplaceBalles();
+
+
+
+			request = window.requestAnimationFrame(interFrame);
+		}
+		// ANIMATION
+		createBalls();
+		window.requestAnimationFrame(interFrame);
+    </script>
+
+</body>
+
+</html>
